@@ -1,0 +1,53 @@
+body 
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo 
+{
+    width:200px;
+    
+}
+h1,article
+{
+    text-align: center;
+    color: rgb(4, 56, 56);
+}
+footer
+{
+    margin-left: 75%;
+    font-style: oblique;
+}
+.addCartButton
+{
+    background-color:gray;
+}
+.addCartButton:hover  /*imleç sepete ekle butonu üstündeyken*/
+{
+    background-color: antiquewhite;
+}
+.addCartButton:active
+{
+    color: rgb(101, 101, 212);
+    background-color: rgb(106, 4, 4);
+}
+strong
+{
+    color: blue;
+}
+.link
+{
+    color: rgb(135, 1, 1);
+    text-decoration: none;
+}
+.link:hover   /*imleç ürün detayı üstündeyken*/
+{
+    color: rgb(219, 11, 11);
+}
+header
+{
+    text-align: center;
+}
+ul
+{
+    list-style-type: none; 
+}
